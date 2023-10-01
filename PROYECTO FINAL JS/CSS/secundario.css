@@ -1,0 +1,149 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  list-style: none;
+}
+
+/*HEADER*/
+header {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #0a0600;
+}
+.logo {
+  width: 150px;
+  border-radius: 50%;
+  border: solid 3px rgb(194, 78, 194);
+  color: #ebb3e9;
+  box-shadow: 0 0 5px #d86bd5,
+               0 0 25px #d86bd5,
+               0 0 50px #d86bd5,
+               0 0 100px #d86bd5;
+}
+
+/*MAIN*/
+/*FONDO*/
+main {
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0.886),
+      rgba(0, 0, 0, 0.805)
+  ) 
+  ,url("../IMG/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+/*TITULO*/
+.titulo2 {
+  text-align: center;
+  color: #ebb3e9;
+  padding: 30px;
+  text-shadow: 0 0 5px #d86bd5,
+               0 0 25px #d86bd5,
+               0 0 50px #d86bd5,
+               0 0 100px #d86bd5;
+}
+/*DETALLES*/
+.detalle_coctel .contenedor{
+    text-align: center;
+    color: #cdaacc;
+    padding: 1rem;
+    text-shadow: 0 0 1px #d86bd5,
+                 0 0 5px #d86bd5,
+                 0 0 10px #d86bd5,
+                 0 0 100px #d86bd5;
+}
+.c_nombre {
+  padding: 2rem; 
+  text-shadow: 0 0 5px #d86bd5,
+               0 0 25px #d86bd5,
+               0 0 50px #d86bd5,
+               0 0 100px #d86bd5;
+}
+.c_img{
+  display: flex;
+  max-width: 30rem;
+  max-height: 30rem;
+  margin: auto;
+}
+.d_imagen {
+  width: 100%;
+  object-fit: cover;
+  text-align: center;
+  border: solid 0.2rem rgb(186, 107, 10);
+}
+.c_vaso{
+  padding: 1rem;
+}
+.c_categoria{
+  padding: 1rem;
+}
+.c_ingredientes{
+  padding: 1rem;
+}
+#ingredientes ul{
+  padding: 0;
+}
+.c_garnish{
+  padding: 1rem;
+}
+.c_preparacion{
+  padding: 1rem;
+}
+/*VOLVER*/
+.volver{
+  padding-top: 25px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+.l_volver{
+  padding: 10px;
+  border-radius: 30px;
+  font-weight: 400;
+  background-color: #30046e;
+  border: solid 3px rgb(194, 78, 194);
+  color: #ebb3e9;
+  box-shadow: 0 0 5px #d86bd5,
+               0 0 25px #d86bd5;
+  color: #cdaacc;
+  text-decoration: none;
+  text-shadow: 0 0 1px #d86bd5,
+                0 0 5px #d86bd5,
+                0 0 10px #d86bd5,
+                0 0 100px #d86bd5;
+  &:hover{
+    font-weight: 500;
+    color: #0c0029;
+    background-color: #ecbeeb;
+}
+}
+/*FOOTER*/
+.pdp{
+  margin-top: 1px;
+  font-weight: bold;
+  background-color: #0c0029;
+  color: #ecbeeb;
+  padding: 5px 10px;
+  padding-top: 18px;
+  text-align: center;
+}
+
+@media (min-width: 945px){
+  .detalle_coctel .contenedor2{
+    display: flex;
+    justify-content: space-evenly;
+    }
+  .contenedor3{
+    width: 50%;
+    text-align: initial;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .c_img{
+    display: flex;
+    height: 480px;
+    width: 480px;
+  }
+}

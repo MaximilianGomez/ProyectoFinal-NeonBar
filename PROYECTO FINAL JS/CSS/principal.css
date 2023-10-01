@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    list-style: none;
+}
+
+/*HEADER*/
+header {
+  padding-top: 20px;
+  text-align: center;
+  background-color: #0a0600;
+}
+.logo {
+  width: 150px;
+  border-radius: 50%;
+  border: solid 3px rgb(194, 78, 194);
+  color: #ebb3e9;
+  box-shadow: 0 0 5px #d86bd5,
+                 0 0 25px #d86bd5,
+                 0 0 50px #d86bd5,
+                 0 0 100px #d86bd5;
+}
+
+/*MAIN*/
+/*FONDO*/
+main {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.886),
+        rgba(0, 0, 0, 0.805)
+    ) 
+    ,url("../IMG/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+/*TITULO*/
+.titulo {
+    text-align: center;
+    color: #ebb3e9;
+    padding: 30px;
+    text-shadow: 0 0 5px #d86bd5,
+                 0 0 25px #d86bd5,
+                 0 0 50px #d86bd5,
+                 0 0 100px #d86bd5;
+}
+/*LISTA*/
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 2rem;
+    padding: 1rem;
+    text-align: center;
+    height: auto;
+    margin: 1px;
+  }
+  .grid-item {
+    padding: 1rem;
+    border: solid 2px transparent;
+    border-radius: 20px;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.654);
+      border: solid 2px #d023ca;
+      box-shadow: 0 0 1px #d86bd5,
+                  0 0 5px #d86bd5,
+                  0 0 10px #d86bd5,
+                  0 0 100px #d86bd5;
+    }
+  }
+  .imagenCoctel {
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    text-align: center;
+    border: solid 0.2rem rgb(186, 107, 10);
+  }
+  .nombreCoctel{
+    color: #cdaacc;
+    padding: 1rem;
+    text-shadow: 0 0 1px #d86bd5,
+                  0 0 5px #d86bd5,
+                  0 0 10px #d86bd5,
+                  0 0 100px #d86bd5;
+  }
+  #boton{
+    border-radius: 20px;
+    background-color: #30046e;
+    border: solid 2px #cdaacc30;
+    color: #cdaacc;
+    font-weight: bold;
+    box-shadow: 0 0 1px #d86bd5,
+                 0 0 5px #d86bd5,
+                 0 0 10px #d86bd5,
+                 0 0 100px #d86bd5;
+    &:hover{
+            color: #0c0029;
+            background-color: #ecbeeb;
+  }
+}
+  .pdp{
+    font-weight: bold;
+    background-color: #0c0029;
+    color: #ecbeeb;
+    padding: 5px 10px;
+    padding-top: 18px;
+    text-align: center;
+  }
+
