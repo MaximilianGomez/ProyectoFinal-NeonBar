@@ -1,4 +1,4 @@
-fetch("../JSON/cocteles.json")
+fetch("./PROYECTO FINAL JS/JSON/cocteles.json")
   .then((respuesta) => respuesta.json())
   .then((datos) => {localStorage.setItem("cocteles", JSON.stringify(datos));
   
@@ -27,5 +27,5 @@ fetch("../JSON/cocteles.json")
 //Genero funcion que muestra los detalles
 function mostrarDetallesCocteles(coctel) {
 //Redirecciono a otra pagina para mostrar todo
-window.location.href = `secundario.html?id=${coctel.id}`;
+window.location.href = `../HTML/secundario.html?id=${coctel.id}`;
 }
