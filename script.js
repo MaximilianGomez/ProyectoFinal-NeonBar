@@ -27,5 +27,5 @@ fetch("./PROYECTO FINAL JS/JSON/cocteles.json")
 //Genero funcion que muestra los detalles
 function mostrarDetallesCocteles(coctel) {
 //Redirecciono a otra pagina para mostrar todo
-window.location.href = `../HTML/secundario.html?id=${coctel.id}`;
+window.location.href = `./PROYECTO FINAL JS/HTML/secundario.html?id=${coctel.id}`;
 }

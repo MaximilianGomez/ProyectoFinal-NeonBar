@@ -7,7 +7,7 @@
       "id": 1,
       "iba": true,
       "name": "Negroni",
-      "imagen": "./PROYECTO FINAL JS/IMG/negroni.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/negroni.jpg",
       "colors": "#ED0200",
       "glass": "old-fashioned",
       "category": "Before Dinner Cocktail",
@@ -28,7 +28,7 @@
       "id": 2,
       "iba": true,
       "name": "Old Fashioned",
-      "imagen": "./PROYECTO FINAL JS/IMG/old_fashioned.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/old_fashioned.jpg",
       "colors": ["#E74A03", "#F1A507"],
       "glass": "old-fashioned",
       "category": "Before Dinner Cocktail",
@@ -50,7 +50,7 @@
       "id": 3,
       "iba": true,
       "name": "Mojito",
-      "imagen": "./PROYECTO FINAL JS/IMG/mojito.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/mojito.jpg",
       "colors": ["#F7F1BC", "#6D9600"],
       "glass": "collins",
       "category": "Longdrink",
@@ -73,7 +73,7 @@
       "id": 4,
       "iba": true,
       "name": "Pisco Sour",
-      "imagen": "./PROYECTO FINAL JS/IMG/pisco_sour.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/pisco_sour.jpg",
       "colors": "#B5AB90",
       "glass": "old-fashioned",
       "category": "All Day Cocktail",
@@ -92,13 +92,14 @@
           "label": "Egg white (small egg)"
         }
       ],
+      "garnish": "None",
       "preparation": "Shake and strain into a chilled champagne flute. Dash some Angostura bitters on top."
     },
     {
       "id": 5,
       "iba": true,
       "name": "Long Island Iced Tea",
-      "imagen": "./PROYECTO FINAL JS/IMG/long_island.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/long_island.jpg",
       "colors": "#C18450",
       "glass": "highball",
       "category": "Longdrink",
@@ -124,7 +125,7 @@
       "id": 6,
       "iba": true,
       "name": "Mimosa",
-      "imagen": "./PROYECTO FINAL JS/IMG/mimosa.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/mimosa.jpg",
       "colors": "#EBC04D",
       "glass": "champagne-flute",
       "category": "Sparkling Cocktail",
@@ -139,7 +140,7 @@
       "id": 7,
       "iba": true,
       "name": "Whiskey Sour",
-      "imagen": "./PROYECTO FINAL JS/IMG/whiskey_sour.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/whiskey_sour.jpg",
       "colors": "#F3CA69",
       "glass": "old-fashioned",
       "category": "Before Dinner Cocktail",
@@ -166,7 +167,7 @@
       "id": 8,
       "iba": true,
       "name": "Cuba Libre",
-      "imagen": "./PROYECTO FINAL JS/IMG/cuba_libre.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/cuba_libre.jpg",
       "colors": ["#440D06", "#983F27", "#EDDC7C"],
       "glass": "highball",
       "category": "Longdrink",
@@ -182,7 +183,7 @@
       "id": 9,
       "iba": true,
       "name": "Manhattan",
-      "imagen": "./PROYECTO FINAL JS/IMG/manhattan.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/manhattan.jpg",
       "colors": "#FF000B",
       "glass": "martini",
       "category": "Before Dinner Cocktail",
@@ -208,7 +209,7 @@
       "id": 10,
       "iba": true,
       "name": "Gin Fizz",
-      "imagen": "./PROYECTO FINAL JS/IMG/gin_fizz.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/gin_fizz.jpg",
       "colors": "#C6C8C3",
       "glass": "highball",
       "category": "Longdrink",
@@ -230,7 +231,7 @@
       "id": 11,
       "iba": true,
       "name": "Espresso Martini",
-      "imagen": "./PROYECTO FINAL JS/IMG/espresso_martini.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/espresso_martini.jpg",
       "searchTerm": "martini",
       "colors": ["#463639", "#D0BFA5"],
       "glass": "martini",
@@ -254,13 +255,14 @@
           "amount": "Amount-according-to-taste"
         }
       ],
+      "garnish": "None",
       "preparation": "Shake and strain into a chilled cocktail glass."
     },
     {
       "id": 12,
       "iba": true,
       "name": "Margarita",
-      "imagen": "./PROYECTO FINAL JS/IMG/margarita.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/margarita.jpg",
       "colors": "#B8B781",
       "glass": "margarita",
       "category": "All Day Cocktail",
@@ -274,13 +276,14 @@
         },
         { "unit": "cl", "amount": 1.5, "ingredient": "Lime juice" }
       ],
+      "garnish": "None",
       "preparation": "Shake with ice cubes. Strain into cocktail glass rimmed with salt (note:Fruit Margarita - blend selected fruit with the above recipe)."
     },
     {
       "id": 13,
       "iba": true,
       "name": "Piña Colada",
-      "imagen": "./PROYECTO FINAL JS/IMG/piña_colada.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/piña_colada.jpg",
       "colors": "#C5B9A1",
       "glass": "hurricane",
       "category": "Longdrink",
@@ -296,7 +299,7 @@
       "id": 14,
       "iba": true,
       "name": "Aviation",
-      "imagen": "./PROYECTO FINAL JS/IMG/aviation.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/aviation.jpg",
       "colors": "#68517B",
       "glass": "martini",
       "category": "All Day Cocktail",
@@ -311,13 +314,14 @@
         { "unit": "cl", "amount": 1.5, "ingredient": "Lemon juice" },
         { "amount": "1 shot", "ingredient": "Crème de violette" }
       ],
+      "garnish": "None",
       "preparation": "Shake and strain into a chilled cocktail glass. The IBA recipe omits the commonly included crème de violette which gives the drink a distinctive purple color."
     },
     {
       "id": 15,
       "iba": true,
       "name": "Tequila Sunrise",
-      "imagen": "./PROYECTO FINAL JS/IMG/tequila_sunrise.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/tequila_sunrise.jpg",
       "colors": ["#FFC800", "#F64202"],
       "glass": "highball",
       "category": "Longdrink",
@@ -338,7 +342,7 @@
       "id": 16,
       "iba": true,
       "name": "Daiquiri",
-      "imagen": "./PROYECTO FINAL JS/IMG/daiquiri.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/daiquiri.jpg",
       "colors": "#ACA99C",
       "glass": "martini",
       "category": "Before Dinner Cocktail",
@@ -352,15 +356,17 @@
           "label": "Simple syrup"
         }
       ],
+      "garnish": "None",
       "preparation": "Shake and strain into a cocktail glass."
     },
     {
       "id": 17,
       "iba": true,
       "name": "Brandy Alexander",
-      "imagen": "./PROYECTO FINAL JS/IMG/brandy_alexander.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/brandy_alexander.jpg",
       "colors": ["#B39684"],
       "glass": "martini",
+      "category": "After Dinner Cocktail",
       "ingredients": [
         { "unit": "cl", "amount": 3, "ingredient": "Cognac" },
         {
@@ -371,13 +377,14 @@
         },
         { "unit": "cl", "amount": 3, "ingredient": "Cream" }
       ],
+      "garnish": "None",
       "preparation": "Shake and strain into a chilled cocktail glass. Sprinkle with fresh ground nutmeg. The IBA simply refers to this drink as an 'Alexander'"
     },
     {
       "id": 18,
       "iba": true,
       "name": "Lemon Drop",
-      "imagen": "./PROYECTO FINAL JS/IMG/lemon_drop.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/lemon_drop.jpg",
       "colors": "#C4B686",
       "glass": "martini",
       "category": "All Day Cocktail",
@@ -397,7 +404,7 @@
       "id": 19,
       "iba": true,
       "name": "French Martini",
-      "imagen": "./PROYECTO FINAL JS/IMG/french_martini.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/french_martini.jpg",
       "colors": "#E00001",
       "glass": "martini",
       "category": "Before Dinner Cocktail",
@@ -406,13 +413,14 @@
         { "unit": "cl", "amount": 1.5, "ingredient": "Raspberry liqueur" },
         { "unit": "cl", "amount": 1.5, "ingredient": "Pineapple juice" }
       ],
+      "garnish": "None",
       "preparation": "Stir in mixing glass with ice cubes. Strain into chilled cocktail glass. Squeeze oil from lemon peel onto the drink."
     },
     {
       "id": 20,
       "iba": true,
       "name": "Black Russian",
-      "imagen": "./PROYECTO FINAL JS/IMG/black_russian.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/black_russian.jpg",
       "colors": ["#EDE4DB", "#BA4D00", "#52180F"],
       "glass": "old-fashioned",
       "category": "After Dinner Cocktail",
@@ -420,13 +428,14 @@
         { "unit": "cl", "amount": 5, "ingredient": "Vodka" },
         { "unit": "cl", "amount": 2, "ingredient": "Coffee liqueur" }
       ],
+      "garnish": "None",
       "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently. Note: for White Russian, float fresh cream on the top and stir gently."
     },
     {
       "id": 21,
       "iba": true,
       "name": "Bloody Mary",
-      "imagen": "./PROYECTO FINAL JS/IMG/bloddy.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/bloddy.jpg",
       "colors": ["#c10000"],
       "glass": "highball",
       "category": "Longdrink",
@@ -446,7 +455,7 @@
       "id": 22,
       "iba": true,
       "name": "Mai Tai",
-      "imagen": "./PROYECTO FINAL JS/IMG/mai_tai.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/mai_tai.jpg",
       "colors": "#FF3006",
       "glass": "highball",
       "category": "Longdrink",
@@ -474,7 +483,7 @@
       "id": 23,
       "iba": true,
       "name": "Sex on the Beach",
-      "imagen": "./PROYECTO FINAL JS/IMG/sex_on_the_beach.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/sex_on_the_beach.jpg",
       "colors": ["#FE3A24", "#FFD801"],
       "glass": "highball",
       "category": "Longdrink",
@@ -491,7 +500,7 @@
       "id": 24,
       "iba": true,
       "name": "Irish Coffee",
-      "imagen": "./PROYECTO FINAL JS/IMG/irish_coffee.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/irish_coffee.jpg",
       "colors": ["#E6D9D1", "#603309", "#1E0A05"],
       "glass": "hot-drink",
       "category": "Hot Drink",
@@ -511,13 +520,14 @@
         { "unit": "cl", "amount": 3, "ingredient": "Cream" },
         { "ingredient": "Sugar", "label": "Brown sugar", "amount": "1 teaspoon" }
       ],
+      "garnish": "None",
       "preparation": "Warm the Irish whiskey over a burner. Pour into the glass (for hot drink) hot coffee, and add a teaspoon of sugar. Float Cream on top."
     },
     {
       "id": 25,
       "iba": true,
       "name": "Moscow Mule",
-      "imagen": "./PROYECTO FINAL JS/IMG/moscow.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/moscow.jpg",
       "colors": "#978540",
       "glass": "highball",
       "category": "Longdrink",
@@ -534,7 +544,7 @@
       "id": 26,
       "iba": true,
       "name": "Mint Julep",
-      "imagen": "./PROYECTO FINAL JS/IMG/mint_julep.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/mint_julep.jpg",
       "colors": ["#F4B317", "#759B4D"],
       "glass": "highball",
       "category": "Longdrink",
@@ -560,7 +570,7 @@
       "id": 27,
       "iba": true,
       "name": "Dirty Martini",
-      "imagen": "./PROYECTO FINAL JS/IMG/dirty_martini.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/dirty_martini.jpg",
       "searchTerm": "martini",
       "colors": "#E1E6E3",
       "glass": "martini",
@@ -582,9 +592,10 @@
       "id": 28,
       "iba": true,
       "name": "Godfather",
-      "imagen": "./PROYECTO FINAL JS/IMG/godfather.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/godfather.jpg",
       "colors": "#B77F27",
       "glass": "old-fashioned",
+      "category": "After Dinner Cocktail",
       "ingredients": [
         {
           "unit": "cl",
@@ -594,13 +605,14 @@
         },
         { "unit": "cl", "amount": 3.5, "ingredient": "DiSaronno" }
       ],
+      "garnish": "None",
       "preparation": "Build into old fashioned glass filled with ice cubes. Stir gently."
     },
     {
       "id": 29,
       "iba": true,
       "name": "Cosmopolitan",
-      "imagen": "./PROYECTO FINAL JS/IMG/cosmopolitan.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/cosmopolitan.jpg",
       "colors": ["#EC464F"],
       "glass": "martini",
       "category": "All Day Cocktail",
@@ -626,7 +638,7 @@
       "id": 30,
       "iba": true,
       "name": "Dry Martini",
-      "imagen": "./PROYECTO FINAL JS/IMG/dry_martini.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/dry_martini.jpg",
       "searchTerm": "martini",
       "colors": "#EFEFEF",
       "glass": "martini",
@@ -640,13 +652,14 @@
           "label": "Dry vermouth"
         }
       ],
+      "garnish": "None",
       "preparation": "Stir in mixing glass with ice cubes. Strain into chilled martini glass. Squeeze oil from lemon peel onto the drink, or garnish with olive."
     },
     {
       "id": 31,
       "iba": true,
       "name": "Caipirinha",
-      "imagen": "./PROYECTO FINAL JS/IMG/caipirinha.jpg",
+      "imagen": "/PROYECTO FINAL JS/IMG/caipirinha.jpg",
       "colors": ["#4A8C03", "#e7ea96", "#f3f9ed"],
       "glass": "old-fashioned",
       "category": "All Day Cocktail",
@@ -659,6 +672,7 @@
           "label": "Fresh lime cut into 4 wedges"
         }
       ],
+      "garnish": "None",
       "preparation": "Place lime and sugar in old fashion glass and muddle. Fill glass with ice and Cachaca (note:Caipiroska- use Vodka instead of Cachaca)."
     }
   ]
